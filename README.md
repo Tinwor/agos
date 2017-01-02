@@ -16,3 +16,4 @@ The project structure is splitted in the following macro categories:
  - Utils: this folder contains all the other files: e.g. a configurator that load configurations from files.
 
 And this is the general overview, let's create an example and see how it works.
+For this simple project I will use [postgres](github.com/lib/pq) to store data, [httprouter](https://github.com/julienschmidt/httprouter) for handling request and [toml](https://github.com/BurntSushi/toml) for file configuration.
